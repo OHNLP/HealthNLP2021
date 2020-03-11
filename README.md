@@ -1,6 +1,6 @@
-# HealthNLP2019
-This is for ICHI HealthNLP 2019 workshop.
+# HealthNLP2020
+This is for ICHI HealthNLP 2020 workshop.
 Link:
 
-https://ohnlp.github.io/HealthNLP2019/healthnlp2019
+https://ohnlp.github.io/HealthNLP2020/healthnlp2020
 
