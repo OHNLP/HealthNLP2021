@@ -2,10 +2,10 @@
 <html lang="en-US" content="text/html; charset=UTF-8">
   <title>Health NLP 2021</title>
   <style type="text/css">
-/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');*/
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 19px;
   font-weight: 300;
 }
@@ -142,6 +142,51 @@ ul.navbar-menu li a.active {
   background: #1d6a91;
 }
 
+table.tg  {
+  border-collapse:collapse;
+  border:0 #bbb;
+  font-size: 1em;
+}
+
+.tg td, th {
+  border: 0px solid black;
+  padding:5px 5px;
+  overflow:hidden;
+  word-break:normal;
+  text-align:left;
+  vertical-align:top
+}
+
+.tg th{
+  font-weight:bold;
+  /*background-color:#c0c0c0;*/
+}
+
+.tg .td-first {
+  /*width: 110px;*/
+}
+
+.tg .tg-break{
+  background-color:#9698ed;
+  color:#333333;
+}
+
+.tg .tg-0lax{
+  background-color:#e0ffeb;
+}
+
+.tg .tg-0lax{
+  background-color:#e0ffeb;
+}
+
+
+/*            .tg  {border-collapse:collapse;border-spacing:0;border-color:#bbb;}
+            
+            .tg th{font-weight:normal;padding:2px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+            
+            .tg .tg-break{background-color:#9698ed;color:#333333;text-align:left;vertical-align:top}
+            */
+
   </style>
 </head>
 
@@ -155,6 +200,7 @@ ul.navbar-menu li a.active {
         <li><a href="#" class="active">Home</a></li>
         <li><a href="#introduction">Introduction</a></li>
         <li><a href="#audience">Audience</a></li>
+        <li><a href="#agenda">Agenda</a></li>
         <li><a href="#dates">Important dates</a></li>
         <li><a href="#submissions">Submissions</a></li>
         <li><a href="#organization">Organizers</a></li>
@@ -178,87 +224,196 @@ ul.navbar-menu li a.active {
     <h1 id="audience">Audience</h1>
 
     <p>Target audience includes both health NLP researchers and consumers. Anyone interested in NLP-based approaches, solutions, and applications in clinical, biomedical, and consumer health informatics is welcome. Researchers and students working on health NLP projects and others interested in learning about and sharing NLP knowledge and resources are strongly encouraged to attend. We also welcome students who wish to closely interact with NLP experts. Potential attendees may come from NLP communities in the medical domain (e.g., AMIA NLP Working Group, BioNLP) and computer and information scientists and linguists working on health-related text processing (e.g., with interests in ACL, EMNLP, NAACL, TREC Precision Medicine and Clinical Decision Support tracks, etc.), as well as general health informatics professionals and researchers.</p>
-    <!-- Agenda
-    <div id="dates" class="widget widget-speakers">
-      <div class="container">
-        <div class="widget-header">
-          <div>
-            <h1 class="widget-body" style="margin-left:-15px">Agenda</h1>
-            <style type="text/css">
-            .tg  {border-collapse:collapse;border-spacing:0;border-color:#bbb;}
-            .tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-            .tg th{font-family:Arial, sans-serif;font-size:18px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-            .tg .tg-sc7r{font-weight:bold;font-family:"Arial Black", Gadget, sans-serif !important;;background-color:#c0c0c0;color:#333333;text-align:center;vertical-align:top}
-            .tg .tg-3dm3{background-color:#9698ed;color:#333333;text-align:center;vertical-align:top}
-            .tg .tg-0lax{background-color:#e0ffeb;text-align:center;vertical-align:top}
-            </style>
-            <table class="tg">
-              <tr>
-                <th class="tg-sc7r">Time</th>
-                <th class="tg-sc7r">Title</th>
-                <th class="tg-sc7r">Speaker</th>
-              </tr>
-              <tr>
-                <td class="tg-3dm3">2:00 - 2:10pm</td>
-                <td class="tg-3dm3">Welcome to HealthNLP</td>
-                <td class="tg-3dm3">Hua Xu, The University of Texas Health Science Center at Houston</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">2:10 - 2:30pm</td>
-                <td class="tg-0lax">Information Extraction for Populating Lung Cancer Clinical Research Data</td>
-                <td class="tg-0lax">Hongfang Liu, Mayo Clinic</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">2:30 - 2:50pm</td>
-                <td class="tg-0lax">RCorp：an Resource for Chemical Disease Semantic Extraction in Chinese</td>
-                <td class="tg-0lax">Jiao Li, Institute of Medical Information, Chinese Academy of Medical Sciences</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">2:50 - 3:10pm</td>
-                <td class="tg-0lax">A Study of Deep Learning Methods for De-identification of Clinical Notes at Cross Institute Settings</td>
-                <td class="tg-0lax">Jiang Bian, University of Florida</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">3:10 - 3:30pm</td>
-                <td class="tg-0lax">TestIME: Testing Chinese Input Method Engines in the Electronic Medical Record Entry Task</td>
-                <td class="tg-0lax">Feihong Yang, Institute of Medical Information and Library, Chinese Academy of Medical Sciences</td>
-              </tr>
-              <tr>
-                <td class="tg-3dm3">3:30 - 4:00pm</td>
-                <td class="tg-3dm3" colspan="2">Coffee Break</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">4:00 - 4:20pm</td>
-                <td class="tg-0lax">Applying a Deep Learning-Based Sequence Labeling Approach to Detect Attributes of Medical Concepts in Clinical Text</td>
-                <td class="tg-0lax">Hua Xu, The University of Texas Health Science Center at Houston</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">4:20 - 4:40pm</td>
-                <td class="tg-0lax">A Hybrid Semantic Relatedness Algorithm by Entity Co-Occurrence and Specialized Word Embeddings</td>
-                <td class="tg-0lax">Go Eun Heo, Yonsei University</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">4:40 - 5:00pm</td>
-                <td class="tg-0lax">Using the WHO database of spontaneous reports to build joint vector representations of drugs and adverse drug reactions, a promising avenue for pharmacovigilance</td>
-                <td class="tg-0lax">Lucie M. Gattepaille, Uppsala Monitoring Centre Uppsala, Sweden</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">5:00 - 5:20pm</td>
-                <td class="tg-0lax">Combined Attention Mechanism for Named Entity Recognition in Chinese Electronic Medical Records</td>
-                <td class="tg-0lax">Li Hou, Institute of Medical Information, Chinese Academy of Medical Science</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">5:20 - 5:40pm</td>
-                <td class="tg-0lax">Improving Rare Disease Classification Using Imperfect Knowledge Graph</td>
-                <td class="tg-0lax">Qiaozhu Mei, University of Michigan</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-    -->
-    <!-- dates -->
+
+    <h1 id="agenda">Tentative Schedule</h1>
+    <span style="font-size: 1.2em;color:red;font-weight: bold">7:00 am - 13:00 pm Victoria time (14:00 p.m. - 20:00 p.m. UTC)</span>
+    <table class="tg">
+      <tr>
+        <td class="tg-break">7:00am</td>
+        <td class="tg-break"><b>Opening marks</b>, Rui Zhang</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">7:10am</td>
+        <td class="tg-0lax"><b>Keynote</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">7:45am</td>
+        <td class="tg-0lax"><b>Contrastive Representations Pre-Training for Enhanced Discharge Summary BERT</b><br>Daeyeon Won, Youngjun Lee, Hojin Choi and Yuchae Jung</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">8:00am</td>
+        <td class="tg-0lax"><b>A HIE-BERT Model for Diagnosis Assistant Based</b><br>Kunli Zhang, Bin Hu and Xu Zhao</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">8:15am</td>
+        <td class="tg-0lax"><b>Deep Transfer Learning for Medical Question Matching</b><br>Yedan Shen, Xiaowei Huang, Buzhou Tang, Xiaolong Wang, Qingcai Chen and Yuan Ni</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">8:30am</td>
+        <td class="tg-0lax"><b>Developing an Interpretable Etiology Classification Model for Ischemic Stroke Based on Chinese Clinical Practice Guideline</b><br>Xiaowei Xu, Lu Qin, Zixiao Li and Jiao Li</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">8:45am</td>
+        <td class="tg-0lax"><b>A Comparative Study of Pre-trained Language Models for Named Entity Recognition in Clinical Trial Eligibility Criteria from Multiple Corpora</b><br>Jianfu Li, Qiang Wei, Omid Ghiasvand, Miao Chen, Victor Lobanov, Chunhua Weng and Hua Xu</td>
+      </tr>
+      <tr>
+        <td class="tg-break">9:00am</td>
+        <td class="tg-break"><b>Break</b></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">9:30am</td>
+        <td class="tg-0lax"><b>Topic Extraction from A Cancer Health Forum</b><br>Samuel Miles, Lixia Yao, Weilin Meng, Christopher M. Black and Zina Ben-Miled</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">9:45am</td>
+        <td class="tg-0lax"><b>Applying Bayesian hyperparameter optimization towards accurate and efficient topic modeling in clinical notes</b><br>Minghao Li, Kyeryoung Lee, Zongzhi Liu, Meng Ma, Qi Pan, Rong Chen, Eric Schadt and Xiaoyan Wang</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">10:00am</td>
+        <td class="tg-0lax"><b>Identification of Dietary Supplement Use from Electronic Health Records Using Transformer-based Language Models</b><br>Sicheng Zhou, Dalton Schutte, Aiwen Xing, Jiyang Chen, Julian Wolfson, Zhe He, Fang Yu and Rui Zhang</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">10:15am</td>
+        <td class="tg-0lax"><b>Robustly Pre-Trained Neural Model for Direct Temporal Relation Extraction</b><br>Hong Guan, Murthy Devarakonda, Jianfu Li and Hua Xu</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">10:30am</td>
+        <td class="tg-0lax"><b>Identify Diabetic Retinopathy-related Clinical Concepts Using Transformer-based Natural Language Processing Methods</b><br>Zehao Yu, Xi Yang, Gianna L Sweeting, Yinghan Ma, Ruogu Fang, Yonghui Wu and Skylar E Stolte</td>
+      </tr>
+      <tr>
+        <td class="tg-break">11:00am</td>
+        <td class="tg-break"><b>Break</b></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">11:30am</td>
+        <td class="tg-0lax"><b>Clinical Trial Information Extraction with BERT</b><br>Xiong Liu, Greg Hersch, Iya Khalil and Murthy Devarakonda</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">11:45am</td>
+        <td class="tg-0lax"><b>An empirical study of using radiology reports and images to improve ICU-mortality prediction</b><br>Mingquan Lin, Song Wang, Ying Ding, Lihui Zhao, Fei Wang and Yifan Peng</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">12:00pm</td>
+        <td class="tg-0lax"><b>Dementia Detection using Transformers-Based Deep Learning and Natural Language Processing Models</b><br>Ploypaphat Saltz, Shih Yin Lin, Sunny Chieh Cheng and Dong Si</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">12:15pm</td>
+        <td class="tg-0lax"><b>Self-supervised extractive text summarization for biomedical literatures</b><br>Tianyi Xie, Yi Zhen, Tianqi Li, Chuqin Li and Yaorong Ge</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">12:30pm</td>
+        <td class="tg-0lax"><b>Impact of detecting clinical trial elements in exploration of COVID-19 literature</b><br>Simon Suster, Karin Verspoor, Timothy Baldwin, Jey Han Lau, Antonio Jimeno, David Martinez and Yulia Otmakhova</td>
+      </tr>
+      <tr>
+        <td class="tg-break">12:45pm</td>
+        <td class="tg-break"><b>Closing marks</b>, Hua Xu</td>
+      </tr>
+    </table>
+<!--     <table class="tg">
+      <tr>
+        <th class="tg-header td-first">Time</th>
+        <th class="tg-header">Title</th>
+        <th class="tg-header">Speaker</th>
+      </tr>
+      <tr>
+        <td class="tg-break">7:00am PDT</td>
+        <td class="tg-break">Opening marks</td>
+        <td class="tg-break">Rui Zhang</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">7:10am PDT</td>
+        <td class="tg-0lax">Keynote</td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">7:45am PDT</td>
+        <td class="tg-0lax">Contrastive Representations Pre-Training for Enhanced Discharge Summary BERT<br>Daeyeon Won, Youngjun Lee, Hojin Choi and Yuchae Jung</td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">8:00am PDT</td>
+        <td class="tg-0lax">A HIE-BERT Model for Diagnosis Assistant Based</td>
+        <td class="tg-0lax">Kunli Zhang, Bin Hu and Xu Zhao</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">8:15am PDT</td>
+        <td class="tg-0lax">Deep Transfer Learning for Medical Question Matching</td>
+        <td class="tg-0lax">Yedan Shen, Xiaowei Huang, Buzhou Tang, Xiaolong Wang, Qingcai Chen and Yuan Ni</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">8:30am PDT</td>
+        <td class="tg-0lax">Developing an Interpretable Etiology Classification Model for Ischemic Stroke Based on Chinese Clinical Practice Guideline</td>
+        <td class="tg-0lax">Xiaowei Xu, Lu Qin, Zixiao Li and Jiao Li</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">8:45am PDT</td>
+        <td class="tg-0lax">A Comparative Study of Pre-trained Language Models for Named Entity Recognition in Clinical Trial Eligibility Criteria from Multiple Corpora</td>
+        <td class="tg-0lax">Jianfu Li, Qiang Wei, Omid Ghiasvand, Miao Chen, Victor Lobanov, Chunhua Weng and Hua Xu</td>
+      </tr>
+      <tr>
+        <td class="tg-break">9:00am PDT</td>
+        <td class="tg-break" colspan="2">Break</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">9:30am PDT</td>
+        <td class="tg-0lax">Topic Extraction from A Cancer Health Forum</td>
+        <td class="tg-0lax">Samuel Miles, Lixia Yao, Weilin Meng, Christopher M. Black and Zina Ben-Miled</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">9:45am PDT</td>
+        <td class="tg-0lax">Applying Bayesian hyperparameter optimization towards accurate and efficient topic modeling in clinical notes</td>
+        <td class="tg-0lax">Minghao Li, Kyeryoung Lee, Zongzhi Liu, Meng Ma, Qi Pan, Rong Chen, Eric Schadt and Xiaoyan Wang</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">10:00am PDT</td>
+        <td class="tg-0lax">Identification of Dietary Supplement Use from Electronic Health Records Using Transformer-based Language Models</td>
+        <td class="tg-0lax">Sicheng Zhou, Dalton Schutte, Aiwen Xing, Jiyang Chen, Julian Wolfson, Zhe He, Fang Yu and Rui Zhang</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">10:15am PDT</td>
+        <td class="tg-0lax">Robustly Pre-Trained Neural Model for Direct Temporal Relation Extraction</td>
+        <td class="tg-0lax">Hong Guan, Murthy Devarakonda, Jianfu Li and Hua Xu</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">10:30am PDT</td>
+        <td class="tg-0lax">Identify Diabetic Retinopathy-related Clinical Concepts Using Transformer-based Natural Language Processing Methods</td>
+        <td class="tg-0lax">Zehao Yu, Xi Yang, Gianna L Sweeting, Yinghan Ma, Ruogu Fang, Yonghui Wu and Skylar E Stolte</td>
+      </tr>
+      <tr>
+        <td class="tg-break">11:00am PDT</td>
+        <td class="tg-break" colspan="2">Break</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">11:30am PDT</td>
+        <td class="tg-0lax">Clinical Trial Information Extraction with BERT</td>
+        <td class="tg-0lax">Xiong Liu, Greg Hersch, Iya Khalil and Murthy Devarakonda</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">11:45am PDT</td>
+        <td class="tg-0lax">An empirical study of using radiology reports and images to improve ICU-mortality prediction</td>
+        <td class="tg-0lax">Mingquan Lin, Song Wang, Ying Ding, Lihui Zhao, Fei Wang and Yifan Peng</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">12:00pm PDT</td>
+        <td class="tg-0lax">Dementia Detection using Transformers-Based Deep Learning and Natural Language Processing Models</td>
+        <td class="tg-0lax">Ploypaphat Saltz, Shih Yin Lin, Sunny Chieh Cheng and Dong Si</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">12:15pm PDT</td>
+        <td class="tg-0lax">Self-supervised extractive text summarization for biomedical literatures</td>
+        <td class="tg-0lax">Tianyi Xie, Yi Zhen, Tianqi Li, Chuqin Li and Yaorong Ge</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">12:30pm PDT</td>
+        <td class="tg-0lax">Impact of detecting clinical trial elements in exploration of COVID-19 literature</td>
+        <td class="tg-0lax">Simon Suster, Karin Verspoor, Timothy Baldwin, Jey Han Lau, Antonio Jimeno, David Martinez and Yulia Otmakhova</td>
+      </tr>
+      <tr>
+        <td class="tg-break">12:45pm PDT</td>
+        <td class="tg-break">Closing marks</td>
+        <td class="tg-break">Hua Xu, The University of Texas Health Science Center at Houston</td>
+      </tr>
+    </table> -->
 
     <h1 id="dates">Important dates</h1>
     <ul>
