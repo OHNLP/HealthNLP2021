@@ -4,4 +4,4 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - bmc_author_instruction.md
+#   - bmc_author_instruction.md
