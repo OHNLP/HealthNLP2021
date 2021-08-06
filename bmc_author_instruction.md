@@ -14,7 +14,7 @@
 
 ---
 
-## Preparation of manuscripts
+## 1. Preparation of manuscripts
 
 ### Formatting
 
@@ -155,7 +155,7 @@ References should be cited in the text using consecutive numbers in square brack
 use Vancouver reference style. See our [editorial policies](https://www.biomedcentral.com/getpublished/editorial-policies#citations) for author guidance on good citation
 practice
 
-## Submission to Editorial Manager supplement site
+## 2. Submission to Editorial Manager supplement site
 
 Please do **NOT** submit your manuscript to the journal’s regular submission system. BMC have
 a special submission site for supplement articles, at:
@@ -173,7 +173,7 @@ a special submission site for supplement articles, at:
    article types). Select the **HealthNLP 2021** supplement you have been invited to submit to. If you are
    not sure, please contact your Supplement Editor.
 
-## Reviews, revision rounds and editorial decisions
+## 3. Reviews, revision rounds and editorial decisions
 
 ### Initial formatting comments
 
@@ -199,7 +199,7 @@ Editor-in-Chief retains editorial control at all times and is responsible for al
 decisions. Please be aware that the Editor may request changes, corrections, transfers, rereviews
 or reject articles which do not meet journal scope or standards.
 
-## Transfer of accepted papers from supplement site to journal site
+## 4. Transfer of accepted papers from supplement site to journal site
 
 If the paper is given final approval by the Editor-in-chief, you will receive an acceptance
 letter, via email, from BMC Supplements, and will be asked to transfer to the target journal.
@@ -215,7 +215,7 @@ When you resubmit into the target journal, it is important that you select the a
 the supplement, and also so you don’t have to pay the regular journal APC. The paper will be
 published as the article type you selected in your original submission.
 
-## Production
+## 5. Production
 
 The approved manuscript will enter production. PDF proofs sent to the corresponding author
 approximately 3 weeks after final acceptance.
@@ -227,7 +227,7 @@ changes, including change of authorship, or changes to data, cannot be made at t
 The publication process takes approximately 6 weeks. However, the supplement issue will
 not publish until all papers are ready.
 
-## Open access license agreement
+## 6. Open access license agreement
 
 By submitting an article to a supplement to a BMC journal, authors confirm that all authors
 of the manuscript have read and agreed to its content and are accountable for all aspects of
@@ -238,7 +238,7 @@ your acceptance of these points and agreement to these and all other terms of th
 License Agreement](https://www.biomedcentral.com/about/policies/license-agreement), the [Creative Commons Attribution License 4.0](https://creativecommons.org/licenses/by/4.0/), and our [Open Data
 policy](https://www.biomedcentral.com/about/policies/open-data), which we strongly recommend you read.
 
-## Payment
+## 7. Payment
 
 Open access article processing charges for supplements are pre-agreed with the supplement
 organisers ($1,625 = $1,595 + invoice processing charge of $30). Publication charges may be payable either by the author’s institution, or
